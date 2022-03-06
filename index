@@ -1,0 +1,90 @@
+/*Sixth march test*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Test </title>
+    <style>
+	    *{
+            margin:0;
+		    padding:0;
+			box-sizing:border-box;
+          
+        }
+		.main{
+		    margin:0px;
+		    padding:0px;
+		    width:100vw;
+		    height:100vh;
+		}
+		.header{
+            height:30vh;
+            text-align: center;
+			padding-top:70px;
+            background-color:grey;
+            color: bisque;
+            font-family:arial;
+            width:100vw;			
+        }
+		.menu{
+		display:flex;
+		width:100vw;
+		height:8vh;
+		background-color:black;
+		justify-content:center;
+		align-items:center;
+		gap:10px;
+		}
+		.menu > .item{
+		
+		height:24px;
+		width:19vw;
+		background-color:white;
+		text-align:center;
+		padding:2px;
+		
+		}
+        
+		.data{
+		    width:100vw;
+			height:50vh;
+			display:flex;
+			border-bottom:2px solid black;
+		}
+		
+		.footer{
+		height:12vh;
+		background-color:cornsilk;
+		}
+		
+	</style>
+  </head>
+  <body>
+    <div class="main">
+        <div class="header">
+            <h1>Site Wide Header</h1>
+        </div>
+        <div class="menu">
+            <div class="item">Home</div>
+			<div class="item">About</div>
+			<div class="item">Blog</div>
+			<div class="item">Career</div>
+			<div class="item">Contact</div>
+        </div>
+        <div class="data">
+            <div class="item" style="background-color:cornsilk;padding:13px;font-family:arial;">
+                <h2 >This is the heading of the artical</h2><br><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ad blanditiis dolore molestiae quidem dolorem nobis ab qui reiciendis autem ipsum similique laboriosam exercitationem rem deleniti voluptate dicta, accusantium minus iure natus quasi neque eaque officia? Praesentium, nisi! Nesciunt provident tempore ratione accusamus dolores adipisci autem incidunt molestiae sed repellat.</p>
+            </div>
+            <div class="item" style="background-color:white;padding:13px;font-family:arial;">
+                <h2>Aside Heading</h2><br><br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, dolorem alias quod adipisci necessitatibus optio!</p>
+            </div>
+        </div>
+        <div class="footer" style="text-align:center;padding:20px;">
+		© 2022 Copyright, Inc.
+		</div>
+     </div>
+   </body>
+</html>
+
