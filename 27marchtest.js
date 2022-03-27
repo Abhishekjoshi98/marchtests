@@ -26,11 +26,18 @@ Ans:
      {  
        console.log ( "book = " +library[i].title  + " ; " + "author = " +library[i].author 
        + " ; " + "readingstatus = " +library[i].readingstatus);
+       
+       if(library[i].readingstatus){
+           console.log("already read the book");
+       }
+       else{
+         console.log("still not done");
+       }
      }
 
 output:
 
-    book = The road ahead ; author = bill gates ; readingstatus = true
-    book = walter isaacson ; author = steve jobs ; readingstatus = true
-    book = mockingjay:the final book of the hunger games ; author = suzanne collins ;   readingstatus = false
+    book = The road ahead ; author = bill gates ; readingstatus = true already read the book 
+    book = walter isaacson ; author = steve jobs ; readingstatus = true already read the book
+    book = mockingjay:the final book of the hunger games ; author = suzanne collins ;   readingstatus = false still not done
  
